@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-data" placeholder="enter the name of city">
+                <img src="images/search.png" id="search-icon">
+            </div>
+            <div class="hidden">
+                <div class="cond-img">
+                    <img src="images/clouds.png">
+                </div>
+                <div class="deg lab "></div>
+                <div class="city lab"></div>
+                <div class="col">
+                    <div class="wind-speed">
+                        <img src="images/humidity.png">
+                        <div class="wind-val">
+                            <div class="one hum-data"></div>
+                            <div class="wind-txt">
+                                Humidity
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wind-speed">
+                        <img src="images/wind.png">
+                        <div class="wind-val">
+                            <div class="one speed-data"></div>
+                            <div class="wind-txt">
+                                Wind Speed
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="invalid">
+            Invalid Data
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
